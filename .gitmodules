@@ -1,0 +1,3 @@
+[submodule "teensy"]
+	path = teensy
+	url = git@github.com:Nate711/DJIPupperTests.git
