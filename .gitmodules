@@ -1,0 +1,3 @@
+[submodule "UDPComms"]
+	path = UDPComms
+	url = git@github.com:stanfordroboticsclub/UDPComms.git
