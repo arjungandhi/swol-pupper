@@ -1,6 +1,3 @@
 [submodule "teensy"]
 	path = teensy
 	url = git@github.com:Nate711/DJIPupperTests.git
-[submodule "dumb-teensy/lib/DJIC610Controller"]
-	path = dumb-teensy/lib/DJIC610Controller
-	url = git@github.com:arjungandhi/DJIC610Controller.git
