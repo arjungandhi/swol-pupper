@@ -3,17 +3,17 @@
 class PID
 {
 private:
-    double kp;
-    double ki;
-    double kd;
+    float kp;
+    float ki;
+    float kd;
 
 
 
 public:
-    PID(double kp, double ki, double kd);
+    PID(float kp, float ki, float kd);
     ~PID();
 
-    double doPID(double error);
+    float doPID(float error);
 
-    void updateGains(double *kp = nullptr, double *ki = nullptr, double *kd = nullptr);
+    void updateGains(float *kp = nullptr, float *ki = nullptr, float *kd = nullptr);
 };
